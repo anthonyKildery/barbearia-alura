@@ -5,36 +5,20 @@
 
 header {
     padding: 20px 0;
-    background-color: #fff;
 }
 
 .banner {
     width: 100%;
 }
 
-.principal {
-    background-color: #cccccc;
-    margin: 0px;
-    padding: 40px;
-}
-
 h2 {
     margin-left: 20px;
-    margin-bottom: 2    0px;
-}
-
-h3 {
-    text-align: center;
-    margin: 50px 0;
-    font-size: 1.5em;
-}
-
-.centralizar-titulo {
+    margin: 50px 0 20px;
+    font-size: 2em;
     text-align: center;
 }
 
 p {
-    text-align: center;
     margin: 20px 0;
 }
 
@@ -48,6 +32,7 @@ em strong {
 
 .beneficios {
     padding: 0px 100px;
+    clear: left;
 }
 
 .itens {
@@ -64,4 +49,24 @@ em strong {
 .img-beneficios {
     display: inline-block;
     width: 50%;
+}
+
+.utensilios {
+    float: left;
+    width: 18%;
+    margin: 0 20px 0;
+}
+
+.titulo-principal {
+    clear: left;
+}
+
+.principal, .beneficios, .mapa {
+    width: 980px;
+    margin: auto;
+}
+
+.video {
+    text-align: center;
+    margin: 50px 0;
 }

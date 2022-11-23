@@ -45,3 +45,18 @@ footer p {
     font-size: 13px;
     margin: 20px 0 0 0;
 }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.centralizar-texto {
+    text-align: center;
+}
