@@ -1,0 +1,40 @@
+.produtos {
+    width: 940px;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.produtos li:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+}
+
+.produtos li:active {
+    box-shadow: 0px 0px 15px rgb(1, 92, 12);
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.produtos p {
+    font-size: 18px;
+    padding: 30px 0px;
+}

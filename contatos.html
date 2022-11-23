@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Contatos</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <img src="img/logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="" name="forms">
+            
+            <fieldset class="padrao">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" required>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
+            </fieldset>
+
+            <fieldset class="contato">
+                <legend>Como prefere receber o nosso contato:</legend>
+
+                <input type="radio" name="contato" id="email-radio" required>
+                <label for="email-radio">Email</label>
+
+                <input type="radio" name="contato" id="telefone-radio" required>
+                <label for="telefone-radio">Telefone</label>
+
+                <input type="radio" name="contato" id="whatsapp-radio" required checked>
+                <label for="whatsapp-radio">WhatsApp</label>
+            </fieldset>
+
+            <fieldset class="padrao" name="periodo">
+                <legend>Qual período deseja ser atendido</legend>
+                <select name="periodo" id="periodo" required>
+                    <option name="periodo" value="manhao">Manhã</option>
+                    <option name="periodo" value="terde">Tarde</option>
+                    <option name="periodo" value="noite">Noite</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="contato">
+                <input type="checkbox" name="aceita" id="aceita" required>
+                <label for="aceita">Você aceitar receber notificações sobre o Salão em seu email de cotato.</label>
+            </fieldset>
+
+            <input type="button" class="button" value="Enviar Formulario">
+
+        </form>
+    </main>
+    <footer>
+        <figure>
+            <img src="img/logo-branco.png" alt="logo-branco">
+        </figure>
+        <p>&copy; Copyright Barbearia Alura 2022</p>
+    </footer>
+</body>
+</html>
