@@ -1,62 +1,38 @@
-header {
-    background-color: #bbb;
-    padding: 0 20px;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/*
+    font-family: 'Montserrat', sans-serif;
+*/
+
+:root {
+    --branco: white;
+    --cinza: #bbb;
+    --black: black;
+    --laranja: orange;
+    --laranja-escuro: darkorange;
 }
 
-.caixa {
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-}
-
-nav a {
-    color: black;
-    font-size: 22px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-nav a:hover {
-    color: black;
-    font-size: 22px;
-    text-decoration: underline;
-}
-
-footer {
-    background-image: url('../img/bg.jpg');
-    color: #fff;
-    text-align: center;
-    padding: 50px 0;
-}
-
-footer p {
-    font-size: 13px;
-    margin: 20px 0 0 0;
+* {
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    line-height: 4em;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 16px;
     font-weight: 400;
 }
 
 .centralizar-texto {
     text-align: center;
+}
+
+.caixa-padrao {
+    max-width: 1000px;
+    margin: 0 auto;
 }
