@@ -1,7 +1,3 @@
-/*
-background-image: linear-gradient( var(--branco1), var(--cinza) );
-*/
-
 .banner {
     width: 100%;
 }
@@ -14,6 +10,11 @@ background-image: linear-gradient( var(--branco1), var(--cinza) );
     width: 15%;
     float: left;
     margin-right: 20px;
+}
+
+.caixa-principal > p {
+    float: right;
+    width: calc(85% - 20px);
 }
 
 .itens {

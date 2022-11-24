@@ -24,9 +24,18 @@ h2 {
 }
 
 p {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1em;
+    line-height: 1.5em;
     font-weight: 400;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
 }
 
 .centralizar-texto {
