@@ -25,6 +25,10 @@ background-image: linear-gradient( var(--branco1), var(--cinza) );
     font-weight: bold;
 }
 
+.itens li::before {
+    content: "🪒 ";
+}
+
 .caixa-beneficios {
     max-width: 800px;
     padding: 50px 0;
@@ -32,7 +36,7 @@ background-image: linear-gradient( var(--branco1), var(--cinza) );
 }
 
 .img-beneficios {
-    width: 60%;
+    width: 50%;
     float: right;
 }
 
