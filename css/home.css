@@ -1,15 +1,19 @@
+/*
+background-image: linear-gradient( var(--branco1), var(--cinza) );
+*/
+
 .banner {
     width: 100%;
+}
+
+.gradiente {
+    background-image: linear-gradient( var(--branco) 20%, var(--branco1) 30%, var(--cinza) 50% );
 }
 
 .utensilios {
     width: 15%;
     float: left;
     margin-right: 20px;
-}
-
-.caixa-beneficios {
-    margin-bottom: 50px;
 }
 
 .itens {
@@ -21,6 +25,12 @@
     font-weight: bold;
 }
 
+.caixa-beneficios {
+    max-width: 800px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
 .img-beneficios {
     width: 60%;
     float: right;
@@ -28,7 +38,7 @@
 
 .video {
     clear: left;
-    margin-top: 390px;
+    margin-top: 300px;
     text-align: center;
 }
 
