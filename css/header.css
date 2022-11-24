@@ -35,3 +35,32 @@ nav a:hover {
     font-size: 22px;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 600px) 
+{
+
+    body, .caixa-menu, .caixa-principal, .caixa-beneficios, .caixa-mapa {
+        width: auto;
+        margin: auto;
+    }
+
+    .logo {
+        margin: auto;
+        display: block;
+        width: 20%;
+    }
+
+    nav {
+        position: static;
+        padding: 40px 0;
+    }
+
+    nav {
+        margin: auto;
+        display: block;
+    }
+
+    nav a {
+        font-size: 0.8em;
+    }
+}

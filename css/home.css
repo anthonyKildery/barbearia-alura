@@ -54,3 +54,44 @@
 .mapa {
     margin-top: 2em;
 }
+
+@media screen and (max-width: 680px) 
+{
+
+    body, .caixa-menu, .caixa-principal, .caixa-beneficios, .caixa-mapa {
+        width: auto;
+        margin: auto;
+    }
+
+    .utensilios {
+        width: 50%;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    .caixa-principal > p {
+        float: none;
+        margin: 40px auto;
+    }
+
+    .caixa-beneficios {
+        padding: 0 30px;
+        float: none;
+    }
+
+    .itens {
+        margin-bottom: 50px;
+    }
+
+    .img-beneficios {
+        float: none;
+        margin: auto;
+        display: block;
+        width: 80%;
+    }
+
+    .video {
+        margin-top: 50px;
+    }
+}

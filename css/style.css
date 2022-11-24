@@ -46,3 +46,11 @@ em {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 480px) 
+{
+    h2 {
+        font-size: 1.5em;
+        line-height: calc(1.5em * 2);
+    }
+}
